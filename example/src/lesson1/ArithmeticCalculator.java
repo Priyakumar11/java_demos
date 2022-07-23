@@ -50,6 +50,8 @@ public class ArithmeticCalculator {
   c=input.nextInt();
   answer = obj.func(c);
   System.out.println("The final answer\n " + answer);
+  int y = (int)answer;
+  System.out.println("The final anser in integer\n"+y);
 	}
 	
 
